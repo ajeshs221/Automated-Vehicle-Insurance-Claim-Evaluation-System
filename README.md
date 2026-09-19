@@ -70,4 +70,5 @@ CNN damage classifier achieved **63% validation accuracy**. Damage class, vehicl
 ## Contributors
 
 Ajeesh Alan · Ajesh S · Kashinath S · Siddhharth B
+
 **Guide:** Mrs. Rakhi Ramachandran Nair, Dept. of CSE, CE Kidangoor
