@@ -21,13 +21,21 @@ InsureIQ automates vehicle insurance claims by replacing manual damage surveys w
 
 ## Project Structure
 ├── main.py # Flask entry point
+
 ├── public.py # Public routes (home, login)
+
 ├── admin.py # Admin routes (policies, claims, complaints)
+
 ├── api.py # REST API consumed by the Android app
+
 ├── database.py # MySQL query helpers
+
 ├── cnn.py # CNN training script
+
 ├── newcnn.py # CNN inference (used by api.py)
+
 ├── model1.h5 # Trained CNN weights
+
 └── android-app/ # Android client
 
 ## Setup
@@ -44,8 +52,6 @@ python main.py   # runs on http://localhost:5073
 ```
 
 For the Android app: open `android-app/` in Android Studio, point it at your running API URL, and build.
-
-> ⚠️ `database.py` uses plaintext passwords and string-interpolated SQL — switch to parameterized queries and hashed passwords before any real deployment.
 
 ## API Overview
 
