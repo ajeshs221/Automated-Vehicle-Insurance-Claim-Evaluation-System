@@ -1,4 +1,4 @@
-# InsureIQ: A Vehicle Insurance Evaluation Decision Support System
+# Automated-Vehicle-Insurance-Claim-Evaluation-System
 
 InsureIQ automates vehicle insurance claims by replacing manual damage surveys with a CNN-based image classifier. Agents submit accident photos via an Android app, the system predicts damage severity and an estimated payout, and an admin web portal handles policy management and claim approvals.
 
